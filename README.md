@@ -32,6 +32,7 @@ Virtual? false
 Hardware address: No Hardware Address
 MTU: 1380
 
+-------------------------------------------
 Display name: utun5
 Name: utun5
 Index: 24
@@ -48,6 +49,7 @@ Virtual? false
 Hardware address: No Hardware Address
 MTU: 1380
 
+-------------------------------------------
 Display name: utun4
 Name: utun4
 Index: 23
@@ -64,6 +66,7 @@ Virtual? false
 Hardware address: No Hardware Address
 MTU: 1380
 
+-------------------------------------------
 Display name: utun3
 Name: utun3
 Index: 22
@@ -80,6 +83,7 @@ Virtual? false
 Hardware address: No Hardware Address
 MTU: 1380
 
+-------------------------------------------
 Display name: utun2
 Name: utun2
 Index: 21
@@ -96,6 +100,7 @@ Virtual? false
 Hardware address: No Hardware Address
 MTU: 1000
 
+-------------------------------------------
 Display name: utun1
 Name: utun1
 Index: 20
@@ -112,6 +117,7 @@ Virtual? false
 Hardware address: No Hardware Address
 MTU: 2000
 
+-------------------------------------------
 Display name: utun0
 Name: utun0
 Index: 19
@@ -128,10 +134,11 @@ Virtual? false
 Hardware address: No Hardware Address
 MTU: 1380
 
+-------------------------------------------
 Display name: llw0
 Name: llw0
 Index: 17
-InetAddress: /fe80:0:0:0:3c8a:f7ff:fe06:cdfa%llw0
+InetAddress: /fe80:0:0:0:7014:edff:fe84:4a7c%llw0
         is AnyLocal: false
         is LinkLocal: true
         is Loopback: false
@@ -141,13 +148,14 @@ Loopback? false
 PointToPoint? false
 Supports multicast? true
 Virtual? false
-Hardware address: 3E:8A:F7:06:CD:FA
+Hardware address: 72:14:ED:84:4A:7C
 MTU: 1500
 
+-------------------------------------------
 Display name: awdl0
 Name: awdl0
 Index: 16
-InetAddress: /fe80:0:0:0:3c8a:f7ff:fe06:cdfa%awdl0
+InetAddress: /fe80:0:0:0:7014:edff:fe84:4a7c%awdl0
         is AnyLocal: false
         is LinkLocal: true
         is Loopback: false
@@ -157,9 +165,10 @@ Loopback? false
 PointToPoint? false
 Supports multicast? true
 Virtual? false
-Hardware address: 3E:8A:F7:06:CD:FA
+Hardware address: 72:14:ED:84:4A:7C
 MTU: 1500
 
+-------------------------------------------
 Display name: anpi0
 Name: anpi0
 Index: 6
@@ -176,6 +185,7 @@ Virtual? false
 Hardware address: F2:CF:8B:DC:BC:31
 MTU: 1500
 
+-------------------------------------------
 Display name: anpi2
 Name: anpi2
 Index: 5
@@ -192,6 +202,7 @@ Virtual? false
 Hardware address: F2:CF:8B:DC:BC:33
 MTU: 1500
 
+-------------------------------------------
 Display name: anpi1
 Name: anpi1
 Index: 4
@@ -208,6 +219,7 @@ Virtual? false
 Hardware address: F2:CF:8B:DC:BC:32
 MTU: 1500
 
+-------------------------------------------
 Display name: en0
 Name: en0
 Index: 15
@@ -233,6 +245,7 @@ Virtual? false
 Hardware address: F0:2F:4B:13:73:98
 MTU: 1500
 
+-------------------------------------------
 Display name: lo0
 Name: lo0
 Index: 1
@@ -257,5 +270,7 @@ Supports multicast? true
 Virtual? false
 Hardware address: No Hardware Address
 MTU: 16384
+
+-------------------------------------------
 
 ```
