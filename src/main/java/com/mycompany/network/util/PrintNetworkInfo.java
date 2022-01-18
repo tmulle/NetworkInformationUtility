@@ -51,6 +51,7 @@ public class PrintNetworkInfo {
             
             if (inetAddress instanceof Inet6Address) {
                 out.printf("\tScopeId: %s\n", ((Inet6Address) inetAddress).getScopeId());
+                out.printf("\tScoped Interface: %s\n", ((Inet6Address) inetAddress).getScopedInterface());
             }
         }
 
