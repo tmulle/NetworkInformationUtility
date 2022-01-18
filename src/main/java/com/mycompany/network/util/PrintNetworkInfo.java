@@ -64,6 +64,8 @@ public class PrintNetworkInfo {
         for (NetworkInterface nic : Collections.list(subInterfaces)) {
             displayInterfaceInformation(nic);
         }
+        
+        out.println("-------------------------------------------");
     }
 
     /**
