@@ -41,12 +41,17 @@ public class PrintNetworkInfo {
             out.printf("InetAddress: %s\n", inetAddress);
             out.printf("\tis AnyLocal: %s\n", inetAddress.isAnyLocalAddress());
             out.printf("\tis LinkLocal: %s\n", inetAddress.isLinkLocalAddress());
+            out.printf("\tis SiteLocal: %s\n", inetAddress.isSiteLocalAddress());
+            out.printf("\tis Multicast Global: %s\n", inetAddress.isMCGlobal());
+            out.printf("\tis Multicast Link Local: %s\n", inetAddress.isMCLinkLocal());
+            out.printf("\tis Multicast Node Local: %s\n", inetAddress.isMCNodeLocal());
+            out.printf("\tis Multicast Org Local: %s\n", inetAddress.isMCOrgLocal());
+            out.printf("\tis Multicast Site Local: %s\n", inetAddress.isMCSiteLocal());
             out.printf("\tis Loopback: %s\n", inetAddress.isLoopbackAddress());
             
             if (inetAddress instanceof Inet6Address) {
                 out.printf("\tScopeId: %s\n", ((Inet6Address) inetAddress).getScopeId());
             }
-
         }
 
 
