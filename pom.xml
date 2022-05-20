@@ -83,6 +83,42 @@
                 </pluginManagement>
             </build>
         </profile>
+<profile>
+    <id>native</id>
+    <build>
+      <plugins>
+        <plugin>
+          <groupId>org.graalvm.buildtools</groupId>
+          <artifactId>native-maven-plugin</artifactId>
+          <version>0.9.0</version> <!-- or newer version -->
+          <executions>
+            <execution>
+              <id>test-native</id>
+              <goals>
+                <goal>test</goal>
+              </goals>
+              <phase>test</phase>
+            </execution>
+            <execution>
+              <id>build-native</id>
+              <goals>
+                <goal>build</goal>
+              </goals>
+              <phase>package</phase>
+            </execution>
+          </executions>
+          <configuration>
+            <imageName>network-utility</imageName>
+            <mainClass>${exec.mainClass}</mainClass>
+            <buildArgs>
+            --no-fallback
+            --verbose
+            </buildArgs>
+          </configuration>
+        </plugin>
+      </plugins>
+    </build>
+  </profile>
     </profiles>
     
     <build>
