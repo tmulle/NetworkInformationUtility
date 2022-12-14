@@ -9,10 +9,8 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
-        <maven-shade-plugin.version>3.2.4</maven-shade-plugin.version>
-        <maven-surefire-plugin.version>2.22.2</maven-surefire-plugin.version>
-        <exec-maven-plugin.version>3.0.0</exec-maven-plugin.version>
+        <maven-shade-plugin.version>3.4.1</maven-shade-plugin.version>
+        <exec-maven-plugin.version>3.1.0</exec-maven-plugin.version>
         <exec.mainClass>com.mycompany.network.util.PrintNetworkInfo</exec.mainClass>
     </properties>
     
@@ -90,7 +88,7 @@
         <plugin>
           <groupId>org.graalvm.buildtools</groupId>
           <artifactId>native-maven-plugin</artifactId>
-          <version>0.9.0</version> <!-- or newer version -->
+          <version>0.9.19</version> <!-- or newer version -->
           <executions>
             <execution>
               <id>test-native</id>
@@ -108,7 +106,7 @@
             </execution>
           </executions>
           <configuration>
-            <imageName>network-utility</imageName>
+            <imageName>network-info</imageName>
             <mainClass>${exec.mainClass}</mainClass>
             <buildArgs>
             --no-fallback

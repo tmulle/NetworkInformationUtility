@@ -13,6 +13,12 @@ or
 
 Command Line: ```java -jar target/networkinterface_info-1.0-fat.jar```
 
+or 
+
+Native Image: ```mvn clean package -Pnative -DskipTests```
+
+Then run: ```./target/network-utility```
+
 Output:
 
 ```
