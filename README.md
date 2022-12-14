@@ -17,7 +17,7 @@ or
 
 Native Image: ```mvn clean package -Pnative -DskipTests```
 
-Then run: ```./target/network-utility```
+Then run: ```./target/network-info```
 
 Output:
 
